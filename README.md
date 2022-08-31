@@ -11,7 +11,9 @@ A bash script for sending Kafka messages in bulk with Confluent Cloud CLI. The s
 ## Produce to Confluent Cloud
 
 #### Without configuration file
-`$ ./produce <topic>  <environment> <cluster>`.
+`$ ./produce <topic> <environment_id> <cluster_id>`
+eq
+`./produce.sh arne_delete_me env-22wrqm lkc-j5vro8`
 
 Save your message files in one directory per topic like the diagram shows below. The variable `<directory>` should be the path to the directory you want to produce on `<topic>`.
 

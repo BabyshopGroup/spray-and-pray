@@ -21,14 +21,14 @@ if ! [ -z "$1" ]
 fi
 
 
-if ! [ -z "$3" ]
+if ! [ -z "$2" ]
   then
   environment=$2
 fi
 
 if ! [ -z "$3" ]
   then
-  $cluster=$3
+  cluster=$3
 fi
 
 message_dir=$topic
